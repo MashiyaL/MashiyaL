@@ -1,91 +1,82 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/render?type=soft&color=auto&height=200&section=header&text=LW%20MASHIYA&fontSize=80&animation=fadeIn&fontAlignY=35&desc=Full-Stack%20Web3%20%26%20Automation%20Engineer&descAlignY=60&descSize=20" />
+  <img src="https://capsule-render.vercel.app/render?type=wave&color=00e1ff&height=250&section=header&text=LW%20MASHIYA&fontSize=90&animation=fadeIn&fontAlignY=38&desc=BLOCKCHAIN%20ARCHITECT%20|%20AI%20AUTOMATION%20ENGINEER&descAlignY=62&descSize=20" />
 </p>
 
 <p align="center">
-  <a href="https://github.com/MashiyaL">
-    <img src="https://img.shields.io/badge/Status-Building_SendiMali-00ff99?style=for-the-badge&logo=github&logoColor=black" />
-  </a>
-  <a href="https://github.com/MashiyaL">
-    <img src="https://img.shields.io/badge/Focus-AI_Messaging_%26_NFTs-blue?style=for-the-badge" />
-  </a>
+<img src="https://img.shields.io/badge/DEVELOPER-PRO-00e1ff?style=for-the-badge&logo=github&logoColor=black" />
+<img src="https://img.shields.io/badge/WEB3-CERTIFIED-blueviolet?style=for-the-badge&logo=ethereum&logoColor=white" />
+<img src="https://img.shields.io/badge/LOCATION-SOUTH_AFRICA-white?style=for-the-badge&logo=googlemaps&logoColor=red" />
 </p>
 
 ---
 
-### ⚡ About the Engineer
-
-I am a **Full-Stack Web2 & Web3 Engineer** with a passion for building automated systems that live where social communication meets the blockchain. My work focuses on creating high-performance messaging bots and cinematic decentralized experiences.
-
-- 🤖 **AI Automation:** Architecting WhatsApp/Telegram support agents using n8n, Qwen, and custom webhooks.
-- ⚓ **Web3 Infrastructure:** Developing NFT-gated dashboards and P2P marketplaces like **SendiMali**.
-- 🛠️ **Deep Backend:** Experienced in enterprise-grade PL/SQL architecture and Java-based web applications.
+### 🌐 THE MISSION
+> **Transforming centralized friction into decentralized flow.** 
+I build at the edge of Web3 and AI, focusing on bridging the gap between deep-layer protocols and user-facing social messaging platforms.
 
 ---
 
-### 🏗️ Technical Arsenal
+### 🛡️ TECHNICAL ARSENAL
 
-<table align="center">
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=solidity,ethers,hardhat,foundry,nextjs,ts,tailwind,nodejs,postgres,docker,java,bash&perline=6" />
+</p>
+
+---
+
+### 🛠️ FEATURED SYSTEMS
+
+<table border="0">
   <tr>
-    <td align="center" width="25%"><strong>Web3 & Crypto</strong></td>
-    <td align="center" width="25%"><strong>Automation & AI</strong></td>
-    <td align="center" width="25%"><strong>Frontend</strong></td>
-    <td align="center" width="25%"><strong>Backend</strong></td>
-  </tr>
-  <tr>
-    <td align="center">
-      <img src="https://skillicons.dev/icons?i=solidity,ethers,hardhat" />
+    <td width="50%">
+      <h4>⚓ The Offshore Collective</h4>
+      <p><i>Cinematic Dynamic NFT Dashboard</i></p>
+      <ul>
+        <li>Gated Soulbound Token (SBT) Ecosystem</li>
+        <li>Evolving Metadata Logic</li>
+        <li>Built on Sepolia Testnet</li>
+      </ul>
+      <code>TypeScript</code> <code>Solidity</code> <code>EVM</code>
     </td>
-    <td align="center">
-      <img src="https://skillicons.dev/icons?i=botpress,python,nodejs" />
-    </td>
-    <td align="center">
-      <img src="https://skillicons.dev/icons?i=nextjs,ts,tailwind" />
-    </td>
-    <td align="center">
-      <img src="https://skillicons.dev/icons?i=java,postgres,docker" />
+    <td width="50%">
+      <h4>🤖 AI Agent Integration</h4>
+      <p><i>Proprietary WhatsApp/Telegram Automation</i></p>
+      <ul>
+        <li>Local LLM (Qwen) Orchestration</li>
+        <li>Webhooks via n8n & Node.js</li>
+        <li>Real-time BTC/Market Data Streams</li>
+      </ul>
+      <code>AI</code> <code>Automation</code> <code>Webhooks</code>
     </td>
   </tr>
 </table>
 
 ---
 
-### 🚀 Highlighted Work
-
-#### 💎 [The Offshore Collective](https://github.com/MashiyaL/Dynamic-NFT)
-**Cinematic Dynamic NFT Dashboard.** 
-A gated ecosystem featuring Soulbound Tokens and evolving metadata based on on-chain ownership.
-`TypeScript` `Solidity` `EVM`
-
-#### 🤖 [WhatsApp AI Bot](https://github.com/MashiyaL/whatsapp-bot)
-**Local LLM Implementation.** 
-Integration of Qwen AI for automated messaging workflows, specializing in client support and real-time BTC updates.
-`JavaScript` `Node.js` `AI`
-
-#### 💸 [SendiMali](https://github.com/MashiyaL/SendiMali)
-**P2P Value Exchange.** 
-Building the future of decentralized peer-to-peer marketplaces.
-`Web3` `FinTech`
-
----
-
-### 📊 Activity Metrics
+### 📊 SYSTEM PERFORMANCE
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=MashiyaL&show_icons=true&theme=nightowl&hide_border=true" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MashiyaL&layout=compact&theme=nightowl&hide_border=true" width="45%" />
+<img src="https://github-readme-stats.vercel.app/api?username=MashiyaL&show_icons=true&theme=transparent&text_color=00e1ff&icon_color=00e1ff&title_color=ffffff&hide_border=true" width="48%" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MashiyaL&layout=compact&theme=transparent&text_color=00e1ff&title_color=ffffff&hide_border=true" width="45%" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=MashiyaL&theme=nightowl&hide_border=true" width="94%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=MashiyaL&theme=transparent&hide_border=true&stroke=00e1ff&ring=00e1ff&fire=00e1ff&currStreakLabel=00e1ff" width="95%" />
 </p>
 
 ---
 
-### 📡 Connectivity
-<p align="left">
-  <a href="mailto:your-email@example.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-  <a href="https://linkedin.com/in/your-profile"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+### 🧬 CONNECT WITH THE ARCHITECT
+<p align="center">
+  <a href="mailto:your-email@example.com">
+    <img src="https://img.shields.io/badge/DIRECT_LINE-Email-00e1ff?style=social&logo=gmail" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://linkedin.com/in/your-profile">
+    <img src="https://img.shields.io/badge/NETWORK-LinkedIn-00e1ff?style=social&logo=linkedin" />
+  </a>
 </p>
 
-> *"If it can be automated, it should be. If it can be decentralized, it must be."*
+<p align="center">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=transparent&quote=If%20it%20can%20be%20automated,%20it%20should%20be.%20If%20it%20can%20be%20decentralized,%20it%20must%20be.&text_color=00e1ff" />
+</p>
