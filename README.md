@@ -1,6 +1,25 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/render?type=waving&color=0:0d1117,50:1a3a5c,100:3d9be9&height=220&section=header&text=Lwazi%20Mashiya&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Full-Stack%20Engineer%20%20·%20%20Servers%2C%20Social%20Platforms%20%26%20Web3&descAlignY=62&descSize=18&descColor=85B7EB" />
+<!-- Banner SVG — no external service, always renders -->
+<svg width="800" height="200" viewBox="0 0 800 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1117"/>
+      <stop offset="50%" style="stop-color:#1a3a5c"/>
+      <stop offset="100%" style="stop-color:#0d1117"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="200" fill="url(#bg)" rx="12"/>
+  <rect width="800" height="3" y="0" fill="#3d9be9" rx="0"/>
+  <rect width="800" height="3" y="197" fill="#3d9be9" rx="0"/>
+  <text x="400" y="85" font-family="monospace" font-size="42" font-weight="bold" fill="#ffffff" text-anchor="middle" letter-spacing="6">LWAZI MASHIYA</text>
+  <text x="400" y="120" font-family="monospace" font-size="14" fill="#85B7EB" text-anchor="middle" letter-spacing="3">FULL-STACK ENGINEER</text>
+  <text x="400" y="150" font-family="monospace" font-size="12" fill="#4a7fa5" text-anchor="middle" letter-spacing="2">Servers · Social Messaging Platforms · Web3</text>
+  <circle cx="60" cy="100" r="2" fill="#3d9be9" opacity="0.6"/>
+  <circle cx="740" cy="100" r="2" fill="#3d9be9" opacity="0.6"/>
+  <line x1="68" y1="100" x2="150" y2="100" stroke="#3d9be9" stroke-width="0.5" opacity="0.3"/>
+  <line x1="650" y1="100" x2="732" y2="100" stroke="#3d9be9" stroke-width="0.5" opacity="0.3"/>
+</svg>
 
 [![Gmail](https://img.shields.io/badge/Gmail-Lwazimashiya.lm@gmail.com-D14836?style=flat&logo=gmail&logoColor=white)](mailto:Lwazimashiya.lm@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Lwazi_Mashiya-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/lwazi-mashiya-23a057255/)
@@ -13,9 +32,9 @@
 
 ## About me
 
-I'm a Full-Stack Web2 & Web3 Engineer with a particular interest in **backend servers and social messaging platforms**. I build the systems that sit behind the interface — APIs, automation pipelines, bot infrastructure, and smart contract backends — and I connect them to where people actually spend their time: WhatsApp, Telegram, and on-chain.
+I'm a Full-Stack Web2 & Web3 Engineer with a particular interest in **backend servers and social messaging platforms**. I build the systems that sit behind the interface — APIs, automation pipelines, bot infrastructure, and smart contract backends — and connect them to where people actually spend their time: WhatsApp, Telegram, and on-chain.
 
-My Web3 work is an extension of that same interest: decentralised backends, NFT-gated access systems, and on-chain protocols that replace traditional server logic with trustless contracts.
+My Web3 work is an extension of that same interest: decentralised backends, NFT-gated access systems, and on-chain protocols where the smart contract *is* the server.
 
 ---
 
@@ -93,20 +112,27 @@ My Web3 work is an extension of that same interest: decentralised backends, NFT-
 
 ---
 
-## How the messaging stack connects
+## How NFT gating works — The Offshore Collective
+
+> User mints a membership NFT → connects wallet → the server verifies ownership and controls access → once the visit threshold is crossed, the smart contract upgrades the NFT metadata from **Associate** → **Elite Member** automatically.
 
 ```mermaid
-graph LR
-    A[Client] -->|sends message| B(WhatsApp)
-    B --> C[Qwen AI Agent / Node.js server]
-    C -->|automated reply| B
-    B -->|resolved| A
+flowchart TD
+    A([User]) -->|mints NFT + connects wallet| B[Gatekeeper Server]
+    B -->|checks wallet for NFT| C[(Ethereum / Sepolia)]
+    C -->|no NFT found| D([Access Denied])
+    C -->|NFT confirmed| E([The Offshore Collective dApp])
 
-    D[n8n Server] -->|scheduled fetch| E(BTC Price API)
-    E --> D
-    D -->|pushes alert| F(Telegram Bot)
-    F -->|price update| A
+    E -->|visit logged| B
+    B -->|increments visit count| F[(Visit Counter — Server)]
+    F -->|below threshold| E
+    F -->|threshold reached| G{Smart Contract}
+
+    G -->|updates token metadata| H([NFT: Associate])
+    H -->|upgraded to| I([NFT: Elite Member 🏅])
 ```
+
+The server is the gatekeeper — it reads the chain to verify ownership and tracks visits. Once the threshold is hit, it calls the smart contract to rewrite the NFT metadata, promoting the holder from Associate to Elite Member.
 
 ---
 
@@ -114,12 +140,12 @@ graph LR
 
 | Project | Type | What it does | Stack |
 |---|---|---|---|
-| [🤖 WhatsApp AI Agent](https://github.com/MashiyaL/whatsapp-bot) | Messaging Platform | Qwen LLM running on a local server, handling client support queries over WhatsApp — no human in the loop. | `Node.js` `Qwen` `AI` |
-| [📡 Telegram BTC Bot](https://github.com/MashiyaL) | Messaging Automation | n8n server pipeline fetching real-time BTC prices and pushing alerts to clients via Telegram. | `n8n` `Telegram` |
-| [⚓ The Offshore Collective](https://github.com/MashiyaL/Dynamic-NFT) | NFT-Gated Dashboard | On-chain Gatekeeper checks wallet ownership. Hold the NFT → enter the dashboard. SBT metadata evolves with activity. | `TypeScript` `Solidity` `SBT` |
+| [🤖 WhatsApp AI Agent](https://github.com/MashiyaL/whatsapp-bot) | Messaging Platform | Qwen LLM on a local Node.js server handles client support queries over WhatsApp — no human in the loop. | `Node.js` `Qwen` `AI` |
+| [📡 Telegram BTC Bot](https://github.com/MashiyaL) | Messaging Automation | n8n pipeline fetches live BTC prices on a schedule and pushes alerts to clients via Telegram. | `n8n` `Telegram` |
+| [⚓ The Offshore Collective](https://github.com/MashiyaL/Dynamic-NFT) | NFT-Gated dApp | Mint → access granted. dApp tracks visits on-chain. Hit the threshold → NFT upgrades from Associate to Elite Member. | `TypeScript` `Solidity` `SBT` |
 | [💸 SendiMali](https://github.com/MashiyaL/SendiMali) | P2P Marketplace | Decentralised peer-to-peer value exchange — wallet-based identity, no intermediary. | `Web3` `FinTech` |
-| [🚗 Speed Gate](https://github.com/MashiyaL/speed-gate) | NFT Access Control | Mint a car NFT (Porsche, Ferrari, Lambo) via MetaMask → server verifies on-chain ownership → content unlocked. | `Next.js` `Sepolia` |
-| [🎰 Powerball](https://github.com/MashiyaL/Powerball) | On-chain Lottery | Smart contract backend handles ticket logic, randomness, and prize distribution — no centralised server needed. | `TypeScript` `Solidity` |
+| [🚗 Speed Gate](https://github.com/MashiyaL/speed-gate) | NFT Access Control | Mint a car NFT (Porsche, Ferrari, Lambo) via MetaMask → contract verifies ownership → content unlocked. | `Next.js` `Sepolia` |
+| [🎰 Powerball](https://github.com/MashiyaL/Powerball) | On-chain Lottery | Smart contract handles ticket logic, randomness, and prize distribution — no centralised server. | `TypeScript` `Solidity` |
 
 ---
 
@@ -141,9 +167,9 @@ graph LR
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/MashiyaL/MashiyaL/blob/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://github.com/MashiyaL/MashiyaL/blob/output/github-contribution-grid-snake.svg" />
-  <img alt="contribution snake" src="https://github.com/MashiyaL/MashiyaL/blob/output/github-contribution-grid-snake.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MashiyaL/MashiyaL/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MashiyaL/MashiyaL/output/github-contribution-grid-snake.svg" />
+  <img alt="contribution snake" src="https://raw.githubusercontent.com/MashiyaL/MashiyaL/output/github-contribution-grid-snake.svg" />
 </picture>
 
 </div>
@@ -151,7 +177,5 @@ graph LR
 ---
 
 <div align="center">
-
-<img src="https://capsule-render.vercel.app/render?type=waving&color=0:3d9be9,50:1a3a5c,100:0d1117&height=120&section=footer" />
-
+<sub>Built from Johannesburg · Open to opportunities</sub>
 </div>
