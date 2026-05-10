@@ -107,7 +107,7 @@ My Web3 work centres on dynamic NFT systems where the server owns the logic — 
 
 ```mermaid
 flowchart TD
-    A([User]) -->|mints NFT + connects wallet| B[Gatekeeper Server]
+    A([User]) -->|connects wallet| B[Gatekeeper Server]
     B -->|reads chain for NFT ownership| C[(Ethereum / Sepolia)]
     C -->|no NFT found| D([Access Denied])
     C -->|NFT confirmed| E([The Offshore Collective dApp])
@@ -131,9 +131,9 @@ The server controls the full lifecycle — it gates access by reading the chain,
 |---|---|---|---|
 | [🤖 WhatsApp AI Agent](https://github.com/MashiyaL/whatsapp-bot) | Messaging Platform | Qwen LLM on a local Node.js server handles client support queries over WhatsApp — no human in the loop. | `Node.js` `Qwen` `AI` |
 | [📡 Telegram BTC Bot](https://github.com/MashiyaL) | Messaging Automation | n8n pipeline fetches live BTC prices on a schedule and pushes alerts to clients via Telegram. | `n8n` `Telegram` |
-| [⚓ The Offshore Collective](https://github.com/MashiyaL/Dynamic-NFT) | NFT-Gated dApp | Mint → access granted. dApp tracks visits on-chain. Hit the threshold → NFT upgrades from Associate to Elite Member. | `TypeScript` `Solidity` `SBT` |
+| [⚓ The Offshore Collective](https://github.com/MashiyaL/Dynamic-NFT) | Dynamic NFT dApp | Mint → access granted. Server tracks visits. Hit the threshold → NFT upgrades from Associate to Elite Member. Server controls all metadata. | `TypeScript` `Solidity` `SBT` |
 | [💸 SendiMali](https://github.com/MashiyaL/SendiMali) | P2P Marketplace | Decentralised peer-to-peer value exchange — wallet-based identity, no intermediary. | `Web3` `FinTech` |
-| [🚗 Speed Gate](https://github.com/MashiyaL/speed-gate) | NFT Access Control | Each car has its own gated page — to access the Porsche page you need a Porsche NFT, Ferrari requires a Ferrari NFT, and so on. Server verifies the specific token before granting entry. | `Next.js` `Sepolia` |
+| [🚗 Speed Gate](https://github.com/MashiyaL/speed-gate) | NFT Access Control | Each car brand has its own gated route — to access the Porsche page you need a Porsche NFT, Ferrari requires a Ferrari NFT. Server verifies the specific token before granting entry. | `Next.js` `Sepolia` |
 | [🎰 Powerball](https://github.com/MashiyaL/Powerball) | On-chain Lottery | Server handles GraphQL queries via The Graph Protocol for on-chain data, and integrates Chainlink VRF for verifiable randomness — provably fair prize distribution. | `TypeScript` `Solidity` `Chainlink VRF` `The Graph` |
 
 ---
@@ -154,12 +154,9 @@ The server controls the full lifecycle — it gates access by reading the chain,
 ## GitHub stats
 
 <div align="center">
-
 <img src="https://github-readme-stats.vercel.app/api?username=MashiyaL&show_icons=true&theme=nightowl&hide_border=true&count_private=true" width="48%" />
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MashiyaL&layout=compact&theme=nightowl&hide_border=true" width="45%" />
-
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=MashiyaL&theme=nightowl&hide_border=true" width="94%" />
-
 </div>
 
 ---
@@ -167,13 +164,11 @@ The server controls the full lifecycle — it gates access by reading the chain,
 ## Contribution snake
 
 <div align="center">
-
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MashiyaL/MashiyaL/output/github-contribution-grid-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MashiyaL/MashiyaL/output/github-contribution-grid-snake.svg" />
   <img alt="contribution snake" src="https://raw.githubusercontent.com/MashiyaL/MashiyaL/output/github-contribution-grid-snake.svg" />
 </picture>
-
 </div>
 
 ---
