@@ -32,9 +32,9 @@
 
 ## About me
 
-I'm a Full-Stack Web2 & Web3 Engineer with a particular interest in **backend servers and social messaging platforms**. I build the systems that sit behind the interface — APIs, automation pipelines, bot infrastructure, and smart contract backends — and connect them to where people actually spend their time: WhatsApp, Telegram, and on-chain.
+CS student at Tshwane University of Technology, Co-Founder of IBM Z TUT Chapter, and Blockchain Developer at Africa's Blockchain Club. I'm a Full-Stack Web2 & Web3 Engineer with a particular interest in **backend servers and social messaging platforms** — building the systems that sit behind the interface: APIs, automation pipelines, bot infrastructure, and server-controlled smart contract backends.
 
-My Web3 work is an extension of that same interest: decentralised backends, NFT-gated access systems, and on-chain protocols where the smart contract *is* the server.
+My Web3 work centres on dynamic NFT systems where the server owns the logic — verifying wallet ownership, tracking on-chain activity, and deciding when to push metadata updates to the contract. No static tokens. Everything evolves.
 
 ---
 
@@ -114,25 +114,25 @@ My Web3 work is an extension of that same interest: decentralised backends, NFT-
 
 ## How NFT gating works — The Offshore Collective
 
-> User mints a membership NFT → connects wallet → the server verifies ownership and controls access → once the visit threshold is crossed, the smart contract upgrades the NFT metadata from **Associate** → **Elite Member** automatically.
+> User mints a membership NFT → connects wallet → the server verifies ownership and grants access → server tracks visits → once the threshold is crossed, the server pushes a metadata update directly to the contract, upgrading the token from **Associate** → **Elite Member**.
 
 ```mermaid
 flowchart TD
     A([User]) -->|mints NFT + connects wallet| B[Gatekeeper Server]
-    B -->|checks wallet for NFT| C[(Ethereum / Sepolia)]
+    B -->|reads chain for NFT ownership| C[(Ethereum / Sepolia)]
     C -->|no NFT found| D([Access Denied])
     C -->|NFT confirmed| E([The Offshore Collective dApp])
 
-    E -->|visit logged| B
-    B -->|increments visit count| F[(Visit Counter — Server)]
+    E -->|each visit reported to server| B
+    B -->|server tracks visit count| F[(Server — Visit Counter)]
     F -->|below threshold| E
-    F -->|threshold reached| G{Smart Contract}
+    F -->|threshold reached| G[Server calls contract]
 
-    G -->|updates token metadata| H([NFT: Associate])
+    G -->|writes new metadata to token| H([NFT: Associate])
     H -->|upgraded to| I([NFT: Elite Member 🏅])
 ```
 
-The server is the gatekeeper — it reads the chain to verify ownership and tracks visits. Once the threshold is hit, it calls the smart contract to rewrite the NFT metadata, promoting the holder from Associate to Elite Member.
+The server controls the full lifecycle — it gates access by reading the chain, tracks activity in its own state, and when the threshold is hit it calls the smart contract to update the token metadata. The NFT reflects what the server decides, not what's hardcoded on-chain.
 
 ---
 
@@ -146,6 +146,19 @@ The server is the gatekeeper — it reads the chain to verify ownership and trac
 | [💸 SendiMali](https://github.com/MashiyaL/SendiMali) | P2P Marketplace | Decentralised peer-to-peer value exchange — wallet-based identity, no intermediary. | `Web3` `FinTech` |
 | [🚗 Speed Gate](https://github.com/MashiyaL/speed-gate) | NFT Access Control | Mint a car NFT (Porsche, Ferrari, Lambo) via MetaMask → contract verifies ownership → content unlocked. | `Next.js` `Sepolia` |
 | [🎰 Powerball](https://github.com/MashiyaL/Powerball) | On-chain Lottery | Smart contract handles ticket logic, randomness, and prize distribution — no centralised server. | `TypeScript` `Solidity` |
+
+---
+
+## Credentials & affiliations
+
+| | |
+|---|---|
+| 🎓 | CS Student — Tshwane University of Technology (2022–2025) |
+| 🏛️ | Co-Founder — IBM Z TUT Chapter |
+| ⛓️ | Blockchain Developer — Africa's Blockchain Club |
+| 🧑‍💼 | Student Ambassador — IBM |
+| 📜 | Scrum Master Certified (SMC) — Scrum Alliance |
+| 📜 | Blockchain Technologies — Interskill Learning |
 
 ---
 
