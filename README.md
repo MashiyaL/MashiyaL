@@ -1,3 +1,5 @@
+<div align="center">
+
 ```
    __                         _   __  __           _     _
   / /  _      ______ _____(_)  /  |/  /___ ______| |__ (_)_  ______ _
@@ -7,113 +9,135 @@
 ```
 
 ### Full-Stack Engineer · Web3 · AI Automation
-**Building at the intersection of decentralised finance, social messaging, and AI.**
+*Building at the intersection of decentralised finance, social messaging, and AI — Johannesburg, ZA*
+
+[![Gmail](https://img.shields.io/badge/Gmail-Lwazimashiya.lm@gmail.com-D14836?style=flat&logo=gmail&logoColor=white)](mailto:Lwazimashiya.lm@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Lwazi_Mashiya-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/lwazi-mashiya-23a057255/)
+[![X](https://img.shields.io/badge/X-@LwaziMashiya-000000?style=flat&logo=x&logoColor=white)](https://x.com/LwaziMashiya)
+
+</div>
 
 ---
 
-### About me
+## Current flow
 
-I'm a Full-Stack Web2 & Web3 Engineer based in Johannesburg, South Africa. I build end-to-end — from NFT-gated dashboards and on-chain lotteries to n8n-powered Telegram automations and WhatsApp AI support agents.
+<table>
+<tr>
+<td valign="top" width="33%">
 
-- **Web3:** Dynamic & upgradeable NFTs, P2P marketplaces, smart contract security
-- **AI Automation:** n8n workflows for real-time BTC price delivery via Telegram; local LLM (Qwen) agents handling client support over WhatsApp
-- **Full-Stack:** Next.js frontends, Node.js backends, Java & PL/SQL enterprise systems
+### ⛓️ Web3
+- NFT-gated dashboards
+- Dynamic & Soulbound Tokens
+- P2P marketplace (SendiMali)
+- On-chain lottery (Powerball)
+- Smart contract auditing
 
----
+**Stack**
 
-### Tech stack
+![Solidity](https://img.shields.io/badge/Solidity-363636?style=flat&logo=solidity&logoColor=white)
+![Ethereum](https://img.shields.io/badge/Ethereum-3C3C3D?style=flat&logo=ethereum&logoColor=white)
+![Hardhat](https://img.shields.io/badge/Hardhat-FFCA28?style=flat&logo=javascript&logoColor=black)
+![Foundry](https://img.shields.io/badge/Foundry-000000?style=flat)
+![Chainlink](https://img.shields.io/badge/Chainlink-375BD2?style=flat&logo=chainlink&logoColor=white)
 
-| Web3 & Smart Contracts | Automation & AI | Frontend | Backend |
-|:---:|:---:|:---:|:---:|
-| ![Solidity](https://img.shields.io/badge/Solidity-363636?style=flat&logo=solidity&logoColor=white) ![Ethereum](https://img.shields.io/badge/Ethereum-3C3C3D?style=flat&logo=ethereum&logoColor=white) ![Hardhat](https://img.shields.io/badge/Hardhat-FFCA28?style=flat&logo=javascript&logoColor=black) | ![n8n](https://img.shields.io/badge/n8n-FF6D5A?style=flat) ![Telegram](https://img.shields.io/badge/Telegram-26A5E4?style=flat&logo=telegram&logoColor=white) ![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=flat&logo=whatsapp&logoColor=white) | ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=next.js&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white) ![Tailwind](https://img.shields.io/badge/Tailwind-38B2AC?style=flat&logo=tailwind-css&logoColor=white) | ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white) ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=java&logoColor=white) ![PL/SQL](https://img.shields.io/badge/PL%2FSQL-F80000?style=flat&logo=oracle&logoColor=white) |
+</td>
+<td valign="top" width="33%">
 
----
+### 🤖 Automation & AI
+- n8n BTC price alerts via Telegram
+- Qwen LLM client support via WhatsApp
+- Webhook-driven workflows
+- Local LLM orchestration
 
-### Featured projects
+**Stack**
 
-#### ⚓ [The Offshore Collective](https://github.com/MashiyaL/Dynamic-NFT)
-*Cinematic Dynamic NFT Dashboard — Ethereum Sepolia*
+![n8n](https://img.shields.io/badge/n8n-FF6D5A?style=flat)
+![Telegram](https://img.shields.io/badge/Telegram-26A5E4?style=flat&logo=telegram&logoColor=white)
+![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=flat&logo=whatsapp&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white)
 
-A gated ecosystem featuring a custom "Gatekeeper" ownership check and evolving Soulbound Token (SBT) metadata that changes based on on-chain state.
+</td>
+<td valign="top" width="33%">
 
-`TypeScript` `Solidity` `SBT` `EVM`
+### 🏗️ Backend & Enterprise
+- PL/SQL employee systems
+- Java web applications
+- REST APIs
+- Database design
 
----
+**Stack**
 
-#### 💸 [SendiMali](https://github.com/MashiyaL/SendiMali)
-*P2P Marketplace — Active Development*
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=java&logoColor=white)
+![PL/SQL](https://img.shields.io/badge/PL%2FSQL-F80000?style=flat&logo=oracle&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white)
 
-Decentralised peer-to-peer value exchange platform built for seamless, trustless transactions between parties.
-
-`Web3` `FinTech` `P2P`
-
----
-
-#### 🚗 [Speed Gate](https://github.com/MashiyaL/speed-gate)
-*NFT-Gated Access Control — Sepolia*
-
-Users connect MetaMask and mint one of three exclusive car NFTs (Porsche, Ferrari, Lambo) to unlock gated premium content. Built on Next.js.
-
-`Next.js` `JavaScript` `MetaMask` `Sepolia`
-
----
-
-#### 🎰 [Powerball](https://github.com/MashiyaL/Powerball)
-*Decentralised On-Chain Lottery*
-
-On-chain lottery game where the protocol handles ticket logic, randomness, and prize distribution — no middleman.
-
-`TypeScript` `Smart Contract` `Web3`
-
----
-
-#### 📡 Telegram BTC Bot
-*n8n Automation — Live*
-
-n8n-powered Telegram workflow that streams real-time BTC price updates directly to clients. Fully automated — no manual input required.
-
-`n8n` `Telegram` `BTC` `Automation`
+</td>
+</tr>
+</table>
 
 ---
 
-#### 🤖 [WhatsApp AI Agent](https://github.com/MashiyaL/whatsapp-bot)
-*Local LLM Customer Support — Live*
+## Frontend
 
-Qwen-powered AI agent running over WhatsApp, handling client support queries and automated conversational flows — no human in the loop.
-
-`Node.js` `Qwen` `AI` `WhatsApp`
-
----
-
-### GitHub stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=MashiyaL&show_icons=true&theme=nightowl&hide_border=true&count_private=true" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MashiyaL&layout=compact&theme=nightowl&hide_border=true" width="45%" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=MashiyaL&theme=nightowl&hide_border=true" width="94%" />
-</p>
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=next.js&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white)
+![Tailwind](https://img.shields.io/badge/Tailwind-38B2AC?style=flat&logo=tailwind-css&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+![wagmi](https://img.shields.io/badge/wagmi-white?style=flat)
+![MetaMask](https://img.shields.io/badge/MetaMask-E2761B?style=flat&logo=metamask&logoColor=white)
 
 ---
 
-### Connect
+## How the automation stack connects
 
-<p align="left">
-  <a href="mailto:Lwazimashiya.lm@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-Lwazimashiya.lm@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
-  <br/><br/>
-  <a href="https://www.linkedin.com/in/lwazi-mashiya-23a057255/">
-    <img src="https://img.shields.io/badge/LinkedIn-Lwazi_Mashiya-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-  <br/><br/>
-  <a href="https://x.com/LwaziMashiya">
-    <img src="https://img.shields.io/badge/X-@LwaziMashiya-000000?style=for-the-badge&logo=x&logoColor=white" />
-  </a>
-</p>
+```mermaid
+graph LR
+    A[Client] -->|message| B(WhatsApp)
+    B --> C{Qwen AI Agent}
+    C -->|support reply| B
+    C -->|escalate| D[Human]
+
+    E[n8n Workflow] -->|BTC price fetch| F(CoinGecko API)
+    F --> G[Telegram Bot]
+    G -->|price alert| A
+```
 
 ---
+
+## Pinned projects
+
+| Project | Type | Description | Stack |
+|---|---|---|---|
+| [⚓ The Offshore Collective](https://github.com/MashiyaL/Dynamic-NFT) | Dynamic NFT | Cinematic NFT-gated dashboard on Sepolia. Gatekeeper ownership check + evolving SBT metadata. | `TypeScript` `Solidity` `SBT` |
+| [💸 SendiMali](https://github.com/MashiyaL/SendiMali) | P2P Marketplace | Decentralised peer-to-peer value exchange. Trustless, no intermediary. | `Web3` `FinTech` |
+| [🚗 Speed Gate](https://github.com/MashiyaL/speed-gate) | NFT Access | Mint a car NFT (Porsche, Ferrari, Lambo) via MetaMask to unlock gated content. | `Next.js` `Sepolia` |
+| [🎰 Powerball](https://github.com/MashiyaL/Powerball) | On-chain Lottery | Protocol handles ticket logic, randomness, and prize distribution on-chain. | `TypeScript` `Solidity` |
+| [📡 Telegram BTC Bot](https://github.com/MashiyaL) | n8n Automation | Real-time BTC price alerts pushed to clients via Telegram. Fully automated. | `n8n` `Telegram` |
+| [🤖 WhatsApp AI Agent](https://github.com/MashiyaL/whatsapp-bot) | AI Support | Qwen-powered agent handling client queries over WhatsApp, no human in the loop. | `Node.js` `Qwen` |
+
+---
+
+## GitHub stats
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=MashiyaL&show_icons=true&theme=nightowl&hide_border=true&count_private=true" width="48%" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MashiyaL&layout=compact&theme=nightowl&hide_border=true" width="45%" />
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=MashiyaL&theme=nightowl&hide_border=true" width="94%" />
+
+</div>
+
+---
+
+## Contribution snake
+
+<div align="center">
+
+![snake gif](https://github.com/MashiyaL/MashiyaL/blob/output/github-contribution-grid-snake-dark.svg)
+
+</div>
 
 > *"If it can be automated, it should be. If it can be decentralised, it must be."*
