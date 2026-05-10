@@ -1,19 +1,6 @@
 <div align="center">
 
-<!-- Banner SVG — terminal prompt -->
-<svg width="800" height="130" viewBox="0 0 800 130" xmlns="http://www.w3.org/2000/svg">
-  <rect width="800" height="130" fill="#0d1117" rx="8"/>
-  <rect width="800" height="26" fill="#161b22" rx="8"/>
-  <rect y="18" width="800" height="8" fill="#161b22"/>
-  <circle cx="20" cy="13" r="5" fill="#ff5f57"/>
-  <circle cx="38" cy="13" r="5" fill="#febc2e"/>
-  <circle cx="56" cy="13" r="5" fill="#28c840"/>
-  <text x="36" y="60" font-family="monospace" font-size="14" fill="#3d9be9">~</text>
-  <text x="54" y="60" font-family="monospace" font-size="14" fill="#58a6ff">$</text>
-  <text x="72" y="60" font-family="monospace" font-size="14" fill="#e6edf3"> whoami</text>
-  <text x="36" y="88" font-family="monospace" font-size="26" font-weight="700" fill="#ffffff" letter-spacing="2">Lwazi Mashiya</text>
-  <text x="36" y="112" font-family="monospace" font-size="12" fill="#3d9be9">// Full-Stack Engineer · Web3 · AI Automation · Johannesburg</text>
-</svg>
+![banner](./assets/banner.svg)
 
 [![Gmail](https://img.shields.io/badge/Gmail-Lwazimashiya.lm@gmail.com-D14836?style=flat&logo=gmail&logoColor=white)](mailto:Lwazimashiya.lm@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Lwazi_Mashiya-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/lwazi-mashiya-23a057255/)
@@ -26,7 +13,7 @@
 
 ## About me
 
-Computer Science student at Tshwane University of Technology, Co-Founder of IBM Z TUT Chapter, and Blockchain Developer at Africa's Blockchain Club. I'm a Full-Stack Web2 & Web3 Engineer with a particular interest in **backend servers and social messaging platforms** — building the systems that sit behind the interface: APIs, automation pipelines, bot infrastructure, and server-controlled smart contract backends.
+CS student at Tshwane University of Technology, Co-Founder of IBM Z TUT Chapter, and Blockchain Developer at Africa's Blockchain Club. I'm a Full-Stack Web2 & Web3 Engineer with a particular interest in **backend servers and social messaging platforms** — building the systems that sit behind the interface: APIs, automation pipelines, bot infrastructure, and server-controlled smart contract backends.
 
 My Web3 work centres on dynamic NFT systems where the server owns the logic — verifying wallet ownership, tracking on-chain activity, and deciding when to push metadata updates to the contract. No static tokens. Everything evolves.
 
@@ -168,7 +155,7 @@ The server controls the full lifecycle — it gates access by reading the chain,
 
 ## Commit history, animated
 
-> Snake eats through a full year of contributions
+> Snake eats through a full year of contributions — regenerates every 24h.
 
 <div align="center">
 <picture>
