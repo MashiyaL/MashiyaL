@@ -1,24 +1,13 @@
 <div align="center">
 
-<!-- Banner SVG — no external service, always renders -->
+<!-- Banner SVG — option B split rule -->
 <svg width="800" height="200" viewBox="0 0 800 200" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#0d1117"/>
-      <stop offset="50%" style="stop-color:#1a3a5c"/>
-      <stop offset="100%" style="stop-color:#0d1117"/>
-    </linearGradient>
-  </defs>
-  <rect width="800" height="200" fill="url(#bg)" rx="12"/>
-  <rect width="800" height="3" y="0" fill="#3d9be9" rx="0"/>
-  <rect width="800" height="3" y="197" fill="#3d9be9" rx="0"/>
-  <text x="400" y="85" font-family="monospace" font-size="42" font-weight="bold" fill="#ffffff" text-anchor="middle" letter-spacing="6">LWAZI MASHIYA</text>
-  <text x="400" y="120" font-family="monospace" font-size="14" fill="#85B7EB" text-anchor="middle" letter-spacing="3">FULL-STACK ENGINEER</text>
-  <text x="400" y="150" font-family="monospace" font-size="12" fill="#4a7fa5" text-anchor="middle" letter-spacing="2">Servers · Social Messaging Platforms · Web3</text>
-  <circle cx="60" cy="100" r="2" fill="#3d9be9" opacity="0.6"/>
-  <circle cx="740" cy="100" r="2" fill="#3d9be9" opacity="0.6"/>
-  <line x1="68" y1="100" x2="150" y2="100" stroke="#3d9be9" stroke-width="0.5" opacity="0.3"/>
-  <line x1="650" y1="100" x2="732" y2="100" stroke="#3d9be9" stroke-width="0.5" opacity="0.3"/>
+  <rect width="800" height="200" fill="#0a0f1a" rx="8"/>
+  <line x1="0" y1="100" x2="800" y2="100" stroke="#1a2a3a" stroke-width="1"/>
+  <text x="400" y="82" font-family="monospace" font-size="44" font-weight="bold" fill="#ffffff" text-anchor="middle" letter-spacing="8">LWAZI MASHIYA</text>
+  <line x1="260" y1="110" x2="540" y2="110" stroke="#3d9be9" stroke-width="1"/>
+  <text x="400" y="134" font-family="monospace" font-size="13" fill="#85B7EB" text-anchor="middle" letter-spacing="4">FULL-STACK  ·  WEB3  ·  AI AUTOMATION</text>
+  <text x="400" y="162" font-family="monospace" font-size="11" fill="#2a4a6a" text-anchor="middle" letter-spacing="2">JOHANNESBURG, ZA</text>
 </svg>
 
 [![Gmail](https://img.shields.io/badge/Gmail-Lwazimashiya.lm@gmail.com-D14836?style=flat&logo=gmail&logoColor=white)](mailto:Lwazimashiya.lm@gmail.com)
@@ -112,9 +101,9 @@ My Web3 work centres on dynamic NFT systems where the server owns the logic — 
 
 ---
 
-## How NFT gating works — The Offshore Collective
+## Dynamic NFT — The Offshore Collective
 
-> User mints a membership NFT → connects wallet → the server verifies ownership and grants access → server tracks visits → once the threshold is crossed, the server pushes a metadata update directly to the contract, upgrading the token from **Associate** → **Elite Member**.
+> User connects wallet → server verifies NFT ownership and grants access → server tracks visits → once the threshold is crossed, the server pushes a metadata update directly to the contract, upgrading the token from **Associate** → **Elite Member**.
 
 ```mermaid
 flowchart TD
@@ -144,8 +133,8 @@ The server controls the full lifecycle — it gates access by reading the chain,
 | [📡 Telegram BTC Bot](https://github.com/MashiyaL) | Messaging Automation | n8n pipeline fetches live BTC prices on a schedule and pushes alerts to clients via Telegram. | `n8n` `Telegram` |
 | [⚓ The Offshore Collective](https://github.com/MashiyaL/Dynamic-NFT) | NFT-Gated dApp | Mint → access granted. dApp tracks visits on-chain. Hit the threshold → NFT upgrades from Associate to Elite Member. | `TypeScript` `Solidity` `SBT` |
 | [💸 SendiMali](https://github.com/MashiyaL/SendiMali) | P2P Marketplace | Decentralised peer-to-peer value exchange — wallet-based identity, no intermediary. | `Web3` `FinTech` |
-| [🚗 Speed Gate](https://github.com/MashiyaL/speed-gate) | NFT Access Control | Mint a car NFT (Porsche, Ferrari, Lambo) via MetaMask → contract verifies ownership → content unlocked. | `Next.js` `Sepolia` |
-| [🎰 Powerball](https://github.com/MashiyaL/Powerball) | On-chain Lottery | Smart contract handles ticket logic, randomness, and prize distribution — no centralised server. | `TypeScript` `Solidity` |
+| [🚗 Speed Gate](https://github.com/MashiyaL/speed-gate) | NFT Access Control | Each car has its own gated page — to access the Porsche page you need a Porsche NFT, Ferrari requires a Ferrari NFT, and so on. Server verifies the specific token before granting entry. | `Next.js` `Sepolia` |
+| [🎰 Powerball](https://github.com/MashiyaL/Powerball) | On-chain Lottery | Server handles GraphQL queries via The Graph Protocol for on-chain data, and integrates Chainlink VRF for verifiable randomness — provably fair prize distribution. | `TypeScript` `Solidity` `Chainlink VRF` `The Graph` |
 
 ---
 
@@ -153,10 +142,10 @@ The server controls the full lifecycle — it gates access by reading the chain,
 
 | | |
 |---|---|
-| 🎓 | CS Student — Tshwane University of Technology (2022–2025) |
+| 🎓 | Computer Science Student — Tshwane University of Technology (2022–Present) |
 | 🏛️ | Co-Founder — IBM Z TUT Chapter |
 | ⛓️ | Blockchain Developer — Africa's Blockchain Club |
-| 🧑‍💼 | Student Ambassador — IBM |
+| 🧑‍💼 | IBM Z Student Ambassador Alumni |
 | 📜 | Scrum Master Certified (SMC) — Scrum Alliance |
 | 📜 | Blockchain Technologies — Interskill Learning |
 
