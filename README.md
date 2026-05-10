@@ -1,55 +1,31 @@
-<p align="center">
-  <img src="https://capsule-render.vercel.app/render?type=wave&color=0:0d1117,50:1a3a5c,100:3d9be9&height=220&section=header&text=LWAZI%20MASHIYA&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Full-Stack%20Engineer%20%20%C2%B7%20%20Web3%20%26%20AI%20Automation&descAlignY=62&descSize=18&descColor=85B7EB" />
-</p>
+```
+   __                         _   __  __           _     _
+  / /  _      ______ _____(_)  /  |/  /___ ______| |__ (_)_  ______ _
+ / /  | | /| / / __ `/_  / | / / /|_/ / __ `/ ___/ '_ \| | |/_/ __ `/
+/ /___| |/ |/ / /_/ / / /| |/ / /  / / /_/ (__  ) | | | |   </ /_/ /
+\____/|__/|__/\__,_/ /___|___/_/  /_/\__,_/____/_| |_|_|_|\_\\__,_/
+```
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Web3-Builder-0C447C?style=for-the-badge&logo=ethereum&logoColor=white" />
-  &nbsp;
-  <img src="https://img.shields.io/badge/AI_Automation-n8n_%26_LLM-085041?style=for-the-badge&logo=node.js&logoColor=white" />
-  &nbsp;
-  <img src="https://img.shields.io/badge/Location-Johannesburg,_SA-3C3489?style=for-the-badge&logo=googlemaps&logoColor=white" />
-</p>
+### Full-Stack Engineer · Web3 · AI Automation
+**Building at the intersection of decentralised finance, social messaging, and AI.**
 
 ---
 
 ### About me
 
-I'm a **Full-Stack Web2 & Web3 Engineer** building at the intersection of decentralised finance, social messaging platforms, and AI automation. I ship everything from NFT-gated dashboards and on-chain lotteries to n8n-powered Telegram bots and WhatsApp AI agents — full-stack, end to end.
+I'm a Full-Stack Web2 & Web3 Engineer based in Johannesburg, South Africa. I build end-to-end — from NFT-gated dashboards and on-chain lotteries to n8n-powered Telegram automations and WhatsApp AI support agents.
 
 - **Web3:** Dynamic & upgradeable NFTs, P2P marketplaces, smart contract security
-- **AI Automation:** n8n workflows for real-time data delivery; local LLM (Qwen) agents for client support over WhatsApp
+- **AI Automation:** n8n workflows for real-time BTC price delivery via Telegram; local LLM (Qwen) agents handling client support over WhatsApp
 - **Full-Stack:** Next.js frontends, Node.js backends, Java & PL/SQL enterprise systems
 
 ---
 
 ### Tech stack
 
-<table>
-  <tr>
-    <td align="center" width="25%"><strong>Web3 & Smart Contracts</strong></td>
-    <td align="center" width="25%"><strong>Automation & AI</strong></td>
-    <td align="center" width="25%"><strong>Frontend</strong></td>
-    <td align="center" width="25%"><strong>Backend</strong></td>
-  </tr>
-  <tr>
-    <td align="center">
-      <img src="https://skillicons.dev/icons?i=solidity,ethereum,hardhat" /><br/>
-      <sub>Solidity · EVM · Hardhat</sub>
-    </td>
-    <td align="center">
-      <img src="https://skillicons.dev/icons?i=python,nodejs,bash" /><br/>
-      <sub>n8n · Qwen · Webhooks</sub>
-    </td>
-    <td align="center">
-      <img src="https://skillicons.dev/icons?i=nextjs,ts,tailwind" /><br/>
-      <sub>Next.js · TypeScript · Tailwind</sub>
-    </td>
-    <td align="center">
-      <img src="https://skillicons.dev/icons?i=java,postgres,docker" /><br/>
-      <sub>Java · PL/SQL · Docker</sub>
-    </td>
-  </tr>
-</table>
+| Web3 & Smart Contracts | Automation & AI | Frontend | Backend |
+|:---:|:---:|:---:|:---:|
+| ![Solidity](https://img.shields.io/badge/Solidity-363636?style=flat&logo=solidity&logoColor=white) ![Ethereum](https://img.shields.io/badge/Ethereum-3C3C3D?style=flat&logo=ethereum&logoColor=white) ![Hardhat](https://img.shields.io/badge/Hardhat-FFCA28?style=flat&logo=javascript&logoColor=black) | ![n8n](https://img.shields.io/badge/n8n-FF6D5A?style=flat) ![Telegram](https://img.shields.io/badge/Telegram-26A5E4?style=flat&logo=telegram&logoColor=white) ![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=flat&logo=whatsapp&logoColor=white) | ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=next.js&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white) ![Tailwind](https://img.shields.io/badge/Tailwind-38B2AC?style=flat&logo=tailwind-css&logoColor=white) | ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white) ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=java&logoColor=white) ![PL/SQL](https://img.shields.io/badge/PL%2FSQL-F80000?style=flat&logo=oracle&logoColor=white) |
 
 ---
 
@@ -67,7 +43,7 @@ A gated ecosystem featuring a custom "Gatekeeper" ownership check and evolving S
 #### 💸 [SendiMali](https://github.com/MashiyaL/SendiMali)
 *P2P Marketplace — Active Development*
 
-Decentralised peer-to-peer value exchange platform built for seamless, trustless transactions.
+Decentralised peer-to-peer value exchange platform built for seamless, trustless transactions between parties.
 
 `Web3` `FinTech` `P2P`
 
