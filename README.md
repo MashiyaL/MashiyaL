@@ -1,13 +1,18 @@
 <div align="center">
 
-<!-- Banner SVG — option B split rule -->
-<svg width="800" height="200" viewBox="0 0 800 200" xmlns="http://www.w3.org/2000/svg">
-  <rect width="800" height="200" fill="#0a0f1a" rx="8"/>
-  <line x1="0" y1="100" x2="800" y2="100" stroke="#1a2a3a" stroke-width="1"/>
-  <text x="400" y="82" font-family="monospace" font-size="44" font-weight="bold" fill="#ffffff" text-anchor="middle" letter-spacing="8">LWAZI MASHIYA</text>
-  <line x1="260" y1="110" x2="540" y2="110" stroke="#3d9be9" stroke-width="1"/>
-  <text x="400" y="134" font-family="monospace" font-size="13" fill="#85B7EB" text-anchor="middle" letter-spacing="4">FULL-STACK  ·  WEB3  ·  AI AUTOMATION</text>
-  <text x="400" y="162" font-family="monospace" font-size="11" fill="#2a4a6a" text-anchor="middle" letter-spacing="2">JOHANNESBURG, ZA</text>
+<!-- Banner SVG — terminal prompt -->
+<svg width="800" height="130" viewBox="0 0 800 130" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="130" fill="#0d1117" rx="8"/>
+  <rect width="800" height="26" fill="#161b22" rx="8"/>
+  <rect y="18" width="800" height="8" fill="#161b22"/>
+  <circle cx="20" cy="13" r="5" fill="#ff5f57"/>
+  <circle cx="38" cy="13" r="5" fill="#febc2e"/>
+  <circle cx="56" cy="13" r="5" fill="#28c840"/>
+  <text x="36" y="60" font-family="monospace" font-size="14" fill="#3d9be9">~</text>
+  <text x="54" y="60" font-family="monospace" font-size="14" fill="#58a6ff">$</text>
+  <text x="72" y="60" font-family="monospace" font-size="14" fill="#e6edf3"> whoami</text>
+  <text x="36" y="88" font-family="monospace" font-size="26" font-weight="700" fill="#ffffff" letter-spacing="2">Lwazi Mashiya</text>
+  <text x="36" y="112" font-family="monospace" font-size="12" fill="#3d9be9">// Full-Stack Engineer · Web3 · AI Automation · Johannesburg</text>
 </svg>
 
 [![Gmail](https://img.shields.io/badge/Gmail-Lwazimashiya.lm@gmail.com-D14836?style=flat&logo=gmail&logoColor=white)](mailto:Lwazimashiya.lm@gmail.com)
@@ -163,7 +168,7 @@ The server controls the full lifecycle — it gates access by reading the chain,
 
 ## Commit history, animated
 
-> Snake eats through a full year of contributions — regenerates every 24h.
+> Snake eats through a full year of contributions
 
 <div align="center">
 <picture>
