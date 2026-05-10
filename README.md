@@ -13,7 +13,7 @@
 
 ## About me
 
-CS student at Tshwane University of Technology, Co-Founder of IBM Z TUT Chapter, and Blockchain Developer at Africa's Blockchain Club. I'm a Full-Stack Web2 & Web3 Engineer with a particular interest in **backend servers and social messaging platforms** — building the systems that sit behind the interface: APIs, automation pipelines, bot infrastructure, and server-controlled smart contract backends.
+Computer Science student at Tshwane University of Technology, Co-Founder of IBM Z TUT Chapter, and Blockchain Developer at Africa's Blockchain Club. I'm a Full-Stack Web2 & Web3 Engineer with a particular interest in **backend servers and social messaging platforms** — building the systems that sit behind the interface: APIs, automation pipelines, bot infrastructure, and server-controlled smart contract backends.
 
 My Web3 work centres on dynamic NFT systems where the server owns the logic — verifying wallet ownership, tracking on-chain activity, and deciding when to push metadata updates to the contract. No static tokens. Everything evolves.
 
@@ -155,7 +155,7 @@ The server controls the full lifecycle — it gates access by reading the chain,
 
 ## Commit history, animated
 
-> Snake eats through a full year of contributions — regenerates every 24h.
+> Snake eats through a full year of contributions
 
 <div align="center">
 <picture>
